@@ -1,0 +1,979 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC0ED5552716F800008D4A5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0ED5542716F800008D4A5B /* AppDelegate.swift */; };
+		DC0ED5572716F800008D4A5B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0ED5562716F800008D4A5B /* SceneDelegate.swift */; };
+		DC0ED55A2716F800008D4A5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC0ED5582716F800008D4A5B /* LaunchScreen.storyboard */; };
+		DC0ED55D2716F800008D4A5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC0ED55B2716F800008D4A5B /* Main.storyboard */; };
+		DC0ED5662716F800008D4A5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0ED5652716F800008D4A5B /* AppDelegate.swift */; };
+		DC0ED5692716F800008D4A5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC0ED5672716F800008D4A5B /* Main.storyboard */; };
+		DC0ED5712716F800008D4A5B /* Binnen-I be gone Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DC0ED5702716F800008D4A5B /* Binnen-I be gone Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DC0ED57B2716F800008D4A5B /* Binnen-I be gone Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DC0ED57A2716F800008D4A5B /* Binnen-I be gone Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DC0ED5812716F800008D4A5B /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = DC0ED5442716F7FF008D4A5B /* Main.html */; };
+		DC0ED5822716F800008D4A5B /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = DC0ED5442716F7FF008D4A5B /* Main.html */; };
+		DC0ED5832716F800008D4A5B /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DC0ED5462716F7FF008D4A5B /* Icon.png */; };
+		DC0ED5842716F800008D4A5B /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DC0ED5462716F7FF008D4A5B /* Icon.png */; };
+		DC0ED5852716F800008D4A5B /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = DC0ED5472716F7FF008D4A5B /* Style.css */; };
+		DC0ED5862716F800008D4A5B /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = DC0ED5472716F7FF008D4A5B /* Style.css */; };
+		DC0ED5872716F800008D4A5B /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = DC0ED5482716F7FF008D4A5B /* Script.js */; };
+		DC0ED5882716F800008D4A5B /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = DC0ED5482716F7FF008D4A5B /* Script.js */; };
+		DC0ED5892716F800008D4A5B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0ED5492716F7FF008D4A5B /* ViewController.swift */; };
+		DC0ED58A2716F800008D4A5B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0ED5492716F7FF008D4A5B /* ViewController.swift */; };
+		DC0ED58B2716F800008D4A5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC0ED54A2716F800008D4A5B /* Assets.xcassets */; };
+		DC0ED58C2716F800008D4A5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC0ED54A2716F800008D4A5B /* Assets.xcassets */; };
+		DC0ED58D2716F800008D4A5B /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0ED54C2716F800008D4A5B /* SafariWebExtensionHandler.swift */; };
+		DC0ED58E2716F800008D4A5B /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0ED54C2716F800008D4A5B /* SafariWebExtensionHandler.swift */; };
+		DC0ED5A82716F800008D4A5B /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = DC0ED5A02716F800008D4A5B /* background.js */; };
+		DC0ED5A92716F800008D4A5B /* css in Resources */ = {isa = PBXBuildFile; fileRef = DC0ED5A12716F800008D4A5B /* css */; };
+		DC0ED5AA2716F800008D4A5B /* images in Resources */ = {isa = PBXBuildFile; fileRef = DC0ED5A22716F800008D4A5B /* images */; };
+		DC0ED5AB2716F800008D4A5B /* options.js in Resources */ = {isa = PBXBuildFile; fileRef = DC0ED5A32716F800008D4A5B /* options.js */; };
+		DC0ED5AC2716F800008D4A5B /* _metadata in Resources */ = {isa = PBXBuildFile; fileRef = DC0ED5A42716F800008D4A5B /* _metadata */; };
+		DC0ED5AD2716F800008D4A5B /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = DC0ED5A52716F800008D4A5B /* manifest.json */; };
+		DC0ED5AE2716F800008D4A5B /* options.html in Resources */ = {isa = PBXBuildFile; fileRef = DC0ED5A62716F800008D4A5B /* options.html */; };
+		DC0ED5AF2716F800008D4A5B /* binnenibegone.js in Resources */ = {isa = PBXBuildFile; fileRef = DC0ED5A72716F800008D4A5B /* binnenibegone.js */; };
+		DC0ED5B02716F800008D4A5B /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = DC0ED5A02716F800008D4A5B /* background.js */; };
+		DC0ED5B12716F800008D4A5B /* css in Resources */ = {isa = PBXBuildFile; fileRef = DC0ED5A12716F800008D4A5B /* css */; };
+		DC0ED5B22716F800008D4A5B /* images in Resources */ = {isa = PBXBuildFile; fileRef = DC0ED5A22716F800008D4A5B /* images */; };
+		DC0ED5B32716F800008D4A5B /* options.js in Resources */ = {isa = PBXBuildFile; fileRef = DC0ED5A32716F800008D4A5B /* options.js */; };
+		DC0ED5B42716F800008D4A5B /* _metadata in Resources */ = {isa = PBXBuildFile; fileRef = DC0ED5A42716F800008D4A5B /* _metadata */; };
+		DC0ED5B52716F800008D4A5B /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = DC0ED5A52716F800008D4A5B /* manifest.json */; };
+		DC0ED5B62716F800008D4A5B /* options.html in Resources */ = {isa = PBXBuildFile; fileRef = DC0ED5A62716F800008D4A5B /* options.html */; };
+		DC0ED5B72716F800008D4A5B /* binnenibegone.js in Resources */ = {isa = PBXBuildFile; fileRef = DC0ED5A72716F800008D4A5B /* binnenibegone.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC0ED5722716F800008D4A5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC0ED53E2716F7FE008D4A5B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC0ED56F2716F800008D4A5B;
+			remoteInfo = "Binnen-I be gone Extension (iOS)";
+		};
+		DC0ED57C2716F800008D4A5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC0ED53E2716F7FE008D4A5B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC0ED5792716F800008D4A5B;
+			remoteInfo = "Binnen-I be gone Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DC0ED5942716F800008D4A5B /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DC0ED5712716F800008D4A5B /* Binnen-I be gone Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC0ED59B2716F800008D4A5B /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DC0ED57B2716F800008D4A5B /* Binnen-I be gone Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DC0ED5452716F7FF008D4A5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		DC0ED5462716F7FF008D4A5B /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		DC0ED5472716F7FF008D4A5B /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		DC0ED5482716F7FF008D4A5B /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		DC0ED5492716F7FF008D4A5B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DC0ED54A2716F800008D4A5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC0ED54C2716F800008D4A5B /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		DC0ED5512716F800008D4A5B /* Binnen-I be gone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Binnen-I be gone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC0ED5542716F800008D4A5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC0ED5562716F800008D4A5B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DC0ED5592716F800008D4A5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC0ED55C2716F800008D4A5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC0ED55E2716F800008D4A5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC0ED5632716F800008D4A5B /* Binnen-I be gone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Binnen-I be gone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC0ED5652716F800008D4A5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC0ED5682716F800008D4A5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC0ED56A2716F800008D4A5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC0ED56B2716F800008D4A5B /* Binnen-I be gone.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Binnen-I be gone.entitlements"; sourceTree = "<group>"; };
+		DC0ED5702716F800008D4A5B /* Binnen-I be gone Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Binnen-I be gone Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC0ED5752716F800008D4A5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC0ED57A2716F800008D4A5B /* Binnen-I be gone Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Binnen-I be gone Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC0ED57F2716F800008D4A5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC0ED5802716F800008D4A5B /* Binnen-I be gone.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Binnen-I be gone.entitlements"; sourceTree = "<group>"; };
+		DC0ED5A02716F800008D4A5B /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = background.js; path = ../../2.7_0/background.js; sourceTree = "<group>"; };
+		DC0ED5A12716F800008D4A5B /* css */ = {isa = PBXFileReference; lastKnownFileType = folder; name = css; path = ../../2.7_0/css; sourceTree = "<group>"; };
+		DC0ED5A22716F800008D4A5B /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = images; path = ../../2.7_0/images; sourceTree = "<group>"; };
+		DC0ED5A32716F800008D4A5B /* options.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = options.js; path = ../../2.7_0/options.js; sourceTree = "<group>"; };
+		DC0ED5A42716F800008D4A5B /* _metadata */ = {isa = PBXFileReference; lastKnownFileType = folder; name = _metadata; path = ../../2.7_0/_metadata; sourceTree = "<group>"; };
+		DC0ED5A52716F800008D4A5B /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ../../2.7_0/manifest.json; sourceTree = "<group>"; };
+		DC0ED5A62716F800008D4A5B /* options.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = options.html; path = ../../2.7_0/options.html; sourceTree = "<group>"; };
+		DC0ED5A72716F800008D4A5B /* binnenibegone.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = binnenibegone.js; path = ../../2.7_0/binnenibegone.js; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC0ED54E2716F800008D4A5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC0ED5602716F800008D4A5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC0ED56D2716F800008D4A5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC0ED5772716F800008D4A5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC0ED53D2716F7FE008D4A5B = {
+			isa = PBXGroup;
+			children = (
+				DC0ED5422716F7FF008D4A5B /* Shared (App) */,
+				DC0ED54B2716F800008D4A5B /* Shared (Extension) */,
+				DC0ED5532716F800008D4A5B /* iOS (App) */,
+				DC0ED5642716F800008D4A5B /* macOS (App) */,
+				DC0ED5742716F800008D4A5B /* iOS (Extension) */,
+				DC0ED57E2716F800008D4A5B /* macOS (Extension) */,
+				DC0ED5522716F800008D4A5B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC0ED5422716F7FF008D4A5B /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				DC0ED5492716F7FF008D4A5B /* ViewController.swift */,
+				DC0ED54A2716F800008D4A5B /* Assets.xcassets */,
+				DC0ED5432716F7FF008D4A5B /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		DC0ED5432716F7FF008D4A5B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DC0ED5442716F7FF008D4A5B /* Main.html */,
+				DC0ED5462716F7FF008D4A5B /* Icon.png */,
+				DC0ED5472716F7FF008D4A5B /* Style.css */,
+				DC0ED5482716F7FF008D4A5B /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DC0ED54B2716F800008D4A5B /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				DC0ED59F2716F800008D4A5B /* Resources */,
+				DC0ED54C2716F800008D4A5B /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		DC0ED5522716F800008D4A5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC0ED5512716F800008D4A5B /* Binnen-I be gone.app */,
+				DC0ED5632716F800008D4A5B /* Binnen-I be gone.app */,
+				DC0ED5702716F800008D4A5B /* Binnen-I be gone Extension.appex */,
+				DC0ED57A2716F800008D4A5B /* Binnen-I be gone Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC0ED5532716F800008D4A5B /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				DC0ED5542716F800008D4A5B /* AppDelegate.swift */,
+				DC0ED5562716F800008D4A5B /* SceneDelegate.swift */,
+				DC0ED5582716F800008D4A5B /* LaunchScreen.storyboard */,
+				DC0ED55B2716F800008D4A5B /* Main.storyboard */,
+				DC0ED55E2716F800008D4A5B /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		DC0ED5642716F800008D4A5B /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				DC0ED5652716F800008D4A5B /* AppDelegate.swift */,
+				DC0ED5672716F800008D4A5B /* Main.storyboard */,
+				DC0ED56A2716F800008D4A5B /* Info.plist */,
+				DC0ED56B2716F800008D4A5B /* Binnen-I be gone.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		DC0ED5742716F800008D4A5B /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				DC0ED5752716F800008D4A5B /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		DC0ED57E2716F800008D4A5B /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				DC0ED57F2716F800008D4A5B /* Info.plist */,
+				DC0ED5802716F800008D4A5B /* Binnen-I be gone.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		DC0ED59F2716F800008D4A5B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DC0ED5A02716F800008D4A5B /* background.js */,
+				DC0ED5A12716F800008D4A5B /* css */,
+				DC0ED5A22716F800008D4A5B /* images */,
+				DC0ED5A32716F800008D4A5B /* options.js */,
+				DC0ED5A42716F800008D4A5B /* _metadata */,
+				DC0ED5A52716F800008D4A5B /* manifest.json */,
+				DC0ED5A62716F800008D4A5B /* options.html */,
+				DC0ED5A72716F800008D4A5B /* binnenibegone.js */,
+			);
+			name = Resources;
+			path = "Shared (Extension)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC0ED5502716F800008D4A5B /* Binnen-I be gone (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC0ED5952716F800008D4A5B /* Build configuration list for PBXNativeTarget "Binnen-I be gone (iOS)" */;
+			buildPhases = (
+				DC0ED54D2716F800008D4A5B /* Sources */,
+				DC0ED54E2716F800008D4A5B /* Frameworks */,
+				DC0ED54F2716F800008D4A5B /* Resources */,
+				DC0ED5942716F800008D4A5B /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC0ED5732716F800008D4A5B /* PBXTargetDependency */,
+			);
+			name = "Binnen-I be gone (iOS)";
+			productName = "Binnen-I be gone (iOS)";
+			productReference = DC0ED5512716F800008D4A5B /* Binnen-I be gone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC0ED5622716F800008D4A5B /* Binnen-I be gone (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC0ED59C2716F800008D4A5B /* Build configuration list for PBXNativeTarget "Binnen-I be gone (macOS)" */;
+			buildPhases = (
+				DC0ED55F2716F800008D4A5B /* Sources */,
+				DC0ED5602716F800008D4A5B /* Frameworks */,
+				DC0ED5612716F800008D4A5B /* Resources */,
+				DC0ED59B2716F800008D4A5B /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC0ED57D2716F800008D4A5B /* PBXTargetDependency */,
+			);
+			name = "Binnen-I be gone (macOS)";
+			productName = "Binnen-I be gone (macOS)";
+			productReference = DC0ED5632716F800008D4A5B /* Binnen-I be gone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC0ED56F2716F800008D4A5B /* Binnen-I be gone Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC0ED5912716F800008D4A5B /* Build configuration list for PBXNativeTarget "Binnen-I be gone Extension (iOS)" */;
+			buildPhases = (
+				DC0ED56C2716F800008D4A5B /* Sources */,
+				DC0ED56D2716F800008D4A5B /* Frameworks */,
+				DC0ED56E2716F800008D4A5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Binnen-I be gone Extension (iOS)";
+			productName = "Binnen-I be gone Extension (iOS)";
+			productReference = DC0ED5702716F800008D4A5B /* Binnen-I be gone Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		DC0ED5792716F800008D4A5B /* Binnen-I be gone Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC0ED5982716F800008D4A5B /* Build configuration list for PBXNativeTarget "Binnen-I be gone Extension (macOS)" */;
+			buildPhases = (
+				DC0ED5762716F800008D4A5B /* Sources */,
+				DC0ED5772716F800008D4A5B /* Frameworks */,
+				DC0ED5782716F800008D4A5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Binnen-I be gone Extension (macOS)";
+			productName = "Binnen-I be gone Extension (macOS)";
+			productReference = DC0ED57A2716F800008D4A5B /* Binnen-I be gone Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC0ED53E2716F7FE008D4A5B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					DC0ED5502716F800008D4A5B = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					DC0ED5622716F800008D4A5B = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					DC0ED56F2716F800008D4A5B = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					DC0ED5792716F800008D4A5B = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = DC0ED5412716F7FE008D4A5B /* Build configuration list for PBXProject "Binnen-I be gone" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC0ED53D2716F7FE008D4A5B;
+			productRefGroup = DC0ED5522716F800008D4A5B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC0ED5502716F800008D4A5B /* Binnen-I be gone (iOS) */,
+				DC0ED5622716F800008D4A5B /* Binnen-I be gone (macOS) */,
+				DC0ED56F2716F800008D4A5B /* Binnen-I be gone Extension (iOS) */,
+				DC0ED5792716F800008D4A5B /* Binnen-I be gone Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC0ED54F2716F800008D4A5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC0ED5832716F800008D4A5B /* Icon.png in Resources */,
+				DC0ED55A2716F800008D4A5B /* LaunchScreen.storyboard in Resources */,
+				DC0ED5812716F800008D4A5B /* Main.html in Resources */,
+				DC0ED5872716F800008D4A5B /* Script.js in Resources */,
+				DC0ED58B2716F800008D4A5B /* Assets.xcassets in Resources */,
+				DC0ED55D2716F800008D4A5B /* Main.storyboard in Resources */,
+				DC0ED5852716F800008D4A5B /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC0ED5612716F800008D4A5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC0ED5842716F800008D4A5B /* Icon.png in Resources */,
+				DC0ED5862716F800008D4A5B /* Style.css in Resources */,
+				DC0ED5692716F800008D4A5B /* Main.storyboard in Resources */,
+				DC0ED5882716F800008D4A5B /* Script.js in Resources */,
+				DC0ED58C2716F800008D4A5B /* Assets.xcassets in Resources */,
+				DC0ED5822716F800008D4A5B /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC0ED56E2716F800008D4A5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC0ED5B62716F800008D4A5B /* options.html in Resources */,
+				DC0ED5B22716F800008D4A5B /* images in Resources */,
+				DC0ED5B32716F800008D4A5B /* options.js in Resources */,
+				DC0ED5B12716F800008D4A5B /* css in Resources */,
+				DC0ED5B42716F800008D4A5B /* _metadata in Resources */,
+				DC0ED5B52716F800008D4A5B /* manifest.json in Resources */,
+				DC0ED5B72716F800008D4A5B /* binnenibegone.js in Resources */,
+				DC0ED5B02716F800008D4A5B /* background.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC0ED5782716F800008D4A5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC0ED5AE2716F800008D4A5B /* options.html in Resources */,
+				DC0ED5AA2716F800008D4A5B /* images in Resources */,
+				DC0ED5AB2716F800008D4A5B /* options.js in Resources */,
+				DC0ED5A92716F800008D4A5B /* css in Resources */,
+				DC0ED5AC2716F800008D4A5B /* _metadata in Resources */,
+				DC0ED5AD2716F800008D4A5B /* manifest.json in Resources */,
+				DC0ED5AF2716F800008D4A5B /* binnenibegone.js in Resources */,
+				DC0ED5A82716F800008D4A5B /* background.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC0ED54D2716F800008D4A5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC0ED5892716F800008D4A5B /* ViewController.swift in Sources */,
+				DC0ED5552716F800008D4A5B /* AppDelegate.swift in Sources */,
+				DC0ED5572716F800008D4A5B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC0ED55F2716F800008D4A5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC0ED58A2716F800008D4A5B /* ViewController.swift in Sources */,
+				DC0ED5662716F800008D4A5B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC0ED56C2716F800008D4A5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC0ED58D2716F800008D4A5B /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC0ED5762716F800008D4A5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC0ED58E2716F800008D4A5B /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC0ED5732716F800008D4A5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC0ED56F2716F800008D4A5B /* Binnen-I be gone Extension (iOS) */;
+			targetProxy = DC0ED5722716F800008D4A5B /* PBXContainerItemProxy */;
+		};
+		DC0ED57D2716F800008D4A5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC0ED5792716F800008D4A5B /* Binnen-I be gone Extension (macOS) */;
+			targetProxy = DC0ED57C2716F800008D4A5B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC0ED5442716F7FF008D4A5B /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC0ED5452716F7FF008D4A5B /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		DC0ED5582716F800008D4A5B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC0ED5592716F800008D4A5B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		DC0ED55B2716F800008D4A5B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC0ED55C2716F800008D4A5B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC0ED5672716F800008D4A5B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC0ED5682716F800008D4A5B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC0ED58F2716F800008D4A5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC0ED5902716F800008D4A5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		DC0ED5922716F800008D4A5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N893T3VXPL;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Binnen-I be gone Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.robinzoellner.Binnen-I-be-gone.Extension";
+				PRODUCT_NAME = "Binnen-I be gone Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC0ED5932716F800008D4A5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N893T3VXPL;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Binnen-I be gone Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.robinzoellner.Binnen-I-be-gone.Extension";
+				PRODUCT_NAME = "Binnen-I be gone Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC0ED5962716F800008D4A5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N893T3VXPL;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Binnen-I be gone";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.robinzoellner.Binnen-I-be-gone";
+				PRODUCT_NAME = "Binnen-I be gone";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC0ED5972716F800008D4A5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N893T3VXPL;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Binnen-I be gone";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.robinzoellner.Binnen-I-be-gone";
+				PRODUCT_NAME = "Binnen-I be gone";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC0ED5992716F800008D4A5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Binnen-I be gone.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N893T3VXPL;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Binnen-I be gone Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.robinzoellner.Binnen-I-be-gone.Extension";
+				PRODUCT_NAME = "Binnen-I be gone Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DC0ED59A2716F800008D4A5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Binnen-I be gone.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N893T3VXPL;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Binnen-I be gone Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.robinzoellner.Binnen-I-be-gone.Extension";
+				PRODUCT_NAME = "Binnen-I be gone Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		DC0ED59D2716F800008D4A5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Binnen-I be gone.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N893T3VXPL;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Binnen-I be gone";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.robinzoellner.Binnen-I-be-gone";
+				PRODUCT_NAME = "Binnen-I be gone";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DC0ED59E2716F800008D4A5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Binnen-I be gone.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N893T3VXPL;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Binnen-I be gone";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.robinzoellner.Binnen-I-be-gone";
+				PRODUCT_NAME = "Binnen-I be gone";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC0ED5412716F7FE008D4A5B /* Build configuration list for PBXProject "Binnen-I be gone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC0ED58F2716F800008D4A5B /* Debug */,
+				DC0ED5902716F800008D4A5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC0ED5912716F800008D4A5B /* Build configuration list for PBXNativeTarget "Binnen-I be gone Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC0ED5922716F800008D4A5B /* Debug */,
+				DC0ED5932716F800008D4A5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC0ED5952716F800008D4A5B /* Build configuration list for PBXNativeTarget "Binnen-I be gone (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC0ED5962716F800008D4A5B /* Debug */,
+				DC0ED5972716F800008D4A5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC0ED5982716F800008D4A5B /* Build configuration list for PBXNativeTarget "Binnen-I be gone Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC0ED5992716F800008D4A5B /* Debug */,
+				DC0ED59A2716F800008D4A5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC0ED59C2716F800008D4A5B /* Build configuration list for PBXNativeTarget "Binnen-I be gone (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC0ED59D2716F800008D4A5B /* Debug */,
+				DC0ED59E2716F800008D4A5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC0ED53E2716F7FE008D4A5B /* Project object */;
+}
