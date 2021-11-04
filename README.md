@@ -1,19 +1,15 @@
 # Binnen-I-be-gone-for-iOS
 Port of the excellent Chrome and Firefox plugin "Binnen-I be gone" for Safari on iOS
 
-It's based on the work of developer 'binnenibegone'(binnenibegone@gmail.com).
-I love this plugin and wanted to have it on Safari so I ported it over.
-
-
+This is a Safari extension that removes gender neutral language from German texts. It's based on the existing work by the developers of the Chrome & Firefox extensions but I am not affiliated with them in any way. If you encounter any bugs please report them to me instead of bothering them :)
+---------------------------------------------------------------------------
 Plugin description in German: 
 
-Binnen-Is sind der Versuch Geschlechtergerechtigkeit in geschriebener Sprache auszudrücken, 
-allerdings wirkt sich deren Verwendung in den Augen mancher negativ auf den Lesefluss von Texten aus. 
-Dieses Add-on ermöglicht es, die meisten eingestreuten Binnen-Is auf besuchten Webseiten herauszufiltern um so eine bessere Lesbarkeit zu erreichen.
+Binnen-Is sind der Versuch Geschlechtergerechtigkeit in geschriebener Sprache auszudrücken, allerdings wirkt sich deren Verwendung in den Augen mancher negativ auf den Lesefluss von Texten aus. Dieses Add-on ermöglicht es, die meisten eingestreuten Binnen-Is auf besuchten Webseiten herauszufiltern um so eine bessere Lesbarkeit zu erreichen.
 
-Über einen Button kann die Filterung durch Binnen-I be gone schnell aktiviert & deaktiviert werden. 
-Zudem können Sie über die Einstellungen im Add-ons-Manager Webseiten festlegen, die von der Filterung 
-ausgenommen sein sollen oder auch einstellen, dass Binnen-Is nur auf bestimmten Seiten entfernt werden sollen.
+Über einen Button kann die Filterung durch Binnen-I be gone schnell aktiviert & deaktiviert werden. Zudem können Sie über die Einstellungen im Add-ons-Manager Webseiten festlegen, die von der Filterung ausgenommen sein sollen oder auch einstellen, dass Binnen-Is nur auf bestimmten Seiten entfernt werden sollen.
+
+Diese Safari Erweiterung basiert auf der Arbeit der Entwickler der Chrome & Firefox Version und wurde mit freundlicher Genehmigung von ihnen für Safari portiert. Falls ihr auf Probleme stoßt oder Anregungen habt, kontaktiert bitte mich und nicht die Entwickler der Chrome & Firefox Version.
 
 
 For Developers:
