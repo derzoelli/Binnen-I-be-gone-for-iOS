@@ -31,8 +31,11 @@ I'm currently also working on a TestFlight. If the app passes beta app review, i
 The App UI still needs some work, but when i'm happy with it, i'll also consider to publish the app on the AppStore.
 
 Update: The iOS Version of Binnen-I be gone is now available through Testflight
+
 https://testflight.apple.com/join/CVIYsv2P
-Just click the link, download the TestFlight app from the AppStore and install it
+
+Just click the link, download the TestFlight app from the AppStore and install it.
+A Mac app TestFlight is also in the works.
 
 
 
