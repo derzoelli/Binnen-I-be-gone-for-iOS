@@ -1,19 +1,33 @@
 # Binnen-I-be-gone-for-iOS
 
-Port of the excellent Chrome and Firefox plugin "Binnen-I be gone" for Safari on iOS
-
-This is a Safari extension that removes gender neutral language from German texts. It's based on the existing work by the developers of the Chrome & Firefox extensions but I am not affiliated with them in any way. If you encounter any bugs please report them to me instead of bothering them :)
-
-
----------------------------------------------------------------------------
-Plugin description in German: 
-
 Binnen-Is sind der Versuch Geschlechtergerechtigkeit in geschriebener Sprache auszudrücken, allerdings wirkt sich deren Verwendung in den Augen mancher negativ auf den Lesefluss von Texten aus. Dieses Add-on ermöglicht es, die meisten eingestreuten Binnen-Is auf besuchten Webseiten herauszufiltern um so eine bessere Lesbarkeit zu erreichen.
 
 Über einen Button kann die Filterung durch Binnen-I be gone schnell aktiviert & deaktiviert werden. Zudem können Sie über die Einstellungen im Add-ons-Manager Webseiten festlegen, die von der Filterung ausgenommen sein sollen oder auch einstellen, dass Binnen-Is nur auf bestimmten Seiten entfernt werden sollen.
 
 Diese Safari Erweiterung basiert auf der Arbeit der Entwickler der Chrome & Firefox Version und wurde mit freundlicher Genehmigung von ihnen für Safari portiert. Falls ihr auf Probleme stoßt oder Anregungen habt, kontaktiert bitte mich und nicht die Entwickler der Chrome & Firefox Version.
-------------------------------------------------------------------------------
+
+
+Aktuell ist die App unter folgendem Link über Testflight zu bekommen: https://testflight.apple.com/join/CVIYsv2P
+Einfach die Testflight App aus dem AppStore laden, über den Link beitreten und installieren.
+Sie ist verfügbar als universal App für iOS, iPadOS und neuerdings auch für MacOS. Außerdem ist sie als universal Binary natürlich auch für M1 Macs optimiert.
+
+In den nächsten Tagen werde ich die App außerdem im AppStore einreichen. Selbstverständlich werde ich sie dort kostenlos anbieten!
+Falls ihr mich dennoch dabei unterstützen wollt meinen 99€/Jahr Apple Developer Account zu finanzieren, könnt ihr mir gerne eine kleine Spende über PayPal zukommen lassen: https://www.paypal.me/robinzoellner
+
+Datenschutz:
+Die App enthält keinerlei Tracker, sammelt keinerlei Daten und speichert keine Informationen über euch oder die besuchten Webseiten. Sie ist ein simpler Filter, der ausschließlich die Darstellung von Webseiten in eurem Browser anpasst. 
+
+
+
+
+
+
+---------------------------------------------------------------------------------------------------------------------
+
+
+Port of the excellent Chrome and Firefox plugin "Binnen-I be gone" for Safari on iOS
+
+This is a Safari extension that removes gender neutral language from German texts. It's based on the existing work by the developers of the Chrome & Firefox extensions but I am not affiliated with them in any way. If you encounter any bugs please report them to me instead of bothering them :)
 
 
 For Developers:
@@ -36,7 +50,6 @@ https://testflight.apple.com/join/CVIYsv2P
 
 Just click the link, download the TestFlight app from the AppStore and install it.
 A Mac app TestFlight is also in the works.
-
 
 
 
