@@ -7,11 +7,16 @@ Binnen-Is sind der Versuch Geschlechtergerechtigkeit in geschriebener Sprache au
 Diese Safari Erweiterung basiert auf der Arbeit der Entwickler der Chrome & Firefox Version und wurde mit freundlicher Genehmigung von ihnen für Safari portiert. Falls ihr auf Probleme stoßt oder Anregungen habt, kontaktiert bitte mich und nicht die Entwickler der Chrome & Firefox Version.
 
 
-Aktuell ist die App unter folgendem Link über Testflight zu bekommen: https://testflight.apple.com/join/CVIYsv2P
+Aktuell ist die App unter folgendem Link über Testflight zu bekommen: 
+https://testflight.apple.com/join/CVIYsv2P
 Einfach die Testflight App aus dem AppStore laden, über den Link beitreten und installieren.
 Sie ist verfügbar als universal App für iOS, iPadOS und neuerdings auch für MacOS. Außerdem ist sie als universal Binary natürlich auch für M1 Macs optimiert.
 
 In den nächsten Tagen werde ich die App außerdem im AppStore einreichen. Selbstverständlich werde ich sie dort kostenlos anbieten!
+Update: 
+Nun ist die App auch regulär im AppStore verfügbar. Viel Spaß damit:
+https://apps.apple.com/de/app/binnen-i-be-gone/id1591455415
+
 Falls ihr mich dennoch dabei unterstützen wollt meinen 99€/Jahr Apple Developer Account zu finanzieren, könnt ihr mir gerne eine kleine Spende über PayPal zukommen lassen: https://www.paypal.me/robinzoellner
 
 Datenschutz:
