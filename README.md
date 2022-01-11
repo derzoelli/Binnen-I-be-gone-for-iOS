@@ -6,18 +6,24 @@ Binnen-Is sind der Versuch Geschlechtergerechtigkeit in geschriebener Sprache au
 
 Diese Safari Erweiterung basiert auf der Arbeit der Entwickler der Chrome & Firefox Version und wurde mit freundlicher Genehmigung von ihnen für Safari portiert. Falls ihr auf Probleme stoßt oder Anregungen habt, kontaktiert bitte mich und nicht die Entwickler der Chrome & Firefox Version.
 
+-----------------------------------------------------------------------------------------------------------------------------------------
 
-Aktuell ist die App unter folgendem Link über Testflight zu bekommen: 
+Die App ist mittlerweile ganz regulär für MacOS und iOS im AppStore verfügbar: 
+https://apps.apple.com/de/app/binnen-i-be-gone/id1591455415
+Die Mac Version ist als universal binary für Apple Silicon (ARM) optimiert und natürlich auch auf Intel Mac's lauffähig.
+
+Selbstverständlich bekommt ihr die App auch im AppStore weiterhin kostenlos.
+
+Falls ihr mich dennoch dabei unterstützen wollt meinen 99€/Jahr Apple Developer Account zu finanzieren, könnt ihr mir gerne eine kleine Spende über PayPal zukommen lassen: 
+https://www.paypal.me/robinzoellner
+
+
+Das Betaprogramm über TestFlight bleibt weiterhin bestehen.
+Wenn ihr also immer die aller neuste Version als erste testen wollt, tretet gerne dem TestFlight bei: 
 https://testflight.apple.com/join/CVIYsv2P
 Einfach die Testflight App aus dem AppStore laden, über den Link beitreten und installieren.
-Sie ist verfügbar als universal App für iOS, iPadOS und neuerdings auch für MacOS. Außerdem ist sie als universal Binary natürlich auch für M1 Macs optimiert.
 
-In den nächsten Tagen werde ich die App außerdem im AppStore einreichen. Selbstverständlich werde ich sie dort kostenlos anbieten!
-Update: 
-Nun ist die App auch regulär im AppStore verfügbar. Viel Spaß damit:
-https://apps.apple.com/de/app/binnen-i-be-gone/id1591455415
 
-Falls ihr mich dennoch dabei unterstützen wollt meinen 99€/Jahr Apple Developer Account zu finanzieren, könnt ihr mir gerne eine kleine Spende über PayPal zukommen lassen: https://www.paypal.me/robinzoellner
 
 Datenschutz:
 Die App enthält keinerlei Tracker, sammelt keinerlei Daten und speichert keine Informationen über euch oder die besuchten Webseiten. Sie ist ein simpler Filter, der ausschließlich die Darstellung von Webseiten in eurem Browser anpasst. 
@@ -27,7 +33,7 @@ Die App enthält keinerlei Tracker, sammelt keinerlei Daten und speichert keine 
 
 
 
----------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------
 
 
 Port of the excellent Chrome and Firefox plugin "Binnen-I be gone" for Safari on iOS
@@ -35,27 +41,30 @@ Port of the excellent Chrome and Firefox plugin "Binnen-I be gone" for Safari on
 This is a Safari extension that removes gender neutral language from German texts. It's based on the existing work by the developers of the Chrome & Firefox extensions but I am not affiliated with them in any way. If you encounter any bugs please report them to me instead of bothering them :)
 
 
-For Developers:
-I have included the XCode project files in this repository so if you want, you can just build the app for yourself and sign it. 
 
-For everybody else:
-If you have an Apple ID, you can also use the XCode Project files to build the app for yourself and sign it for a week, but there are probably better ways to do this.
+Installation:
+
+->For Developers:
+I have included the XCode project files in this repository so if you want to, you can just build the app for yourself and sign it. 
+
+
+->For everybody else:
+
+1) AppStore
+https://apps.apple.com/de/app/binnen-i-be-gone/id1591455415
+
+2) TestFlight beta program:
+https://testflight.apple.com/join/CVIYsv2P
+
+
+3) Sideloading 
+
+If you have an Apple ID, you can use the XCode Project files to build the app for yourself and sign it for a week, but there are probably better ways to do this.
 I'd recommend to use Cydia Impactor, iOS App Signer or AltStore as it's a lot easier.
 But remember: If you don't have an Apple developer account, the app will expire after 7 days.
 AltStore will help you to automatically re-sign the app in the background. 
 So check out this great project by Riley Testut:
 https://altstore.io
-
-I'm currently also working on a TestFlight. If the app passes beta app review, i'll publish the link to join it here.
-The App UI still needs some work, but when i'm happy with it, i'll also consider to publish the app on the AppStore.
-
-Update: The iOS Version of Binnen-I be gone is now available through Testflight
-
-https://testflight.apple.com/join/CVIYsv2P
-
-Just click the link, download the TestFlight app from the AppStore and install it.
-A Mac app TestFlight is also in the works.
-
 
 
 Installation:
